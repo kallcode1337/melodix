@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Melodix - The ultimate offline audiobook player for Android with professional audio enhancements.">
+    <title>Melodix | Premium Offline Audiobook Player</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+<body>
+    <!-- Background animated blobs -->
+    <div class="blob-bg blob-1"></div>
+    <div class="blob-bg blob-2"></div>
+    <div class="noise-overlay"></div>
+    
+    <nav class="navbar glass-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Melodix Logo" class="nav-logo-img">
+                <span>Melodix</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="https://github.com/KallCode/melodix" target="_blank" class="github-btn">GitHub</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content reveal">
+                <div class="hero-badge">100% Offline App</div>
+                <h1 class="hero-title">Your Audiobooks.<br><span class="gradient-text">Your Sound.</span></h1>
+                <p class="hero-subtitle">The most advanced offline audiobook player for Android. Experience crystal clear voice with a 10-band equalizer, dynamic range compression, and volume boost.</p>
+                <div class="hero-buttons">
+                    <a href="https://github.com/KallCode/melodix/releases" class="btn btn-primary" target="_blank">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                        Download APK
+                    </a>
+                    <a href="#features" class="btn btn-secondary">Explore Features</a>
+                </div>
+            </div>
+            <div class="hero-visual reveal delay-1">
+                <div class="glass-card mockup-card">
+                    <div class="mockup-img-container">
+                        <img src="assets/logo.png" alt="Cover Art" class="mockup-img">
+                    </div>
+                    <div class="mockup-ui">
+                        <div class="mockup-title">The Great Gatsby</div>
+                        <div class="mockup-author">F. Scott Fitzgerald</div>
+                        <div class="mockup-progress">
+                            <div class="progress-bar"><div class="progress-fill"></div></div>
+                            <div class="progress-times">
+                                <span>01:24:10</span>
+                                <span>08:45:00</span>
+                            </div>
+                        </div>
+                        <div class="mockup-controls">
+                            <div class="ctrl-btn skip-back">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 19 2 12 11 5 11 19"></polygon><polygon points="22 19 13 12 22 5 22 19"></polygon></svg>
+                            </div>
+                            <div class="ctrl-btn play">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                            </div>
+                            <div class="ctrl-btn skip-forward">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 19 22 12 13 5 13 19"></polygon><polygon points="2 19 11 12 2 5 2 19"></polygon></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="features-header reveal">
+                <h2 class="section-title">Crafted for <span class="gradient-text">Listeners</span></h2>
+                <p class="section-subtitle">Everything you need to enjoy audiobooks exactly the way you want.</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card glass-card reveal">
+                    <div class="feature-icon gradient-bg-1">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"></line><line x1="12" y1="21" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="3"></line><line x1="20" y1="21" x2="20" y2="16"></line><line x1="20" y1="12" x2="20" y2="3"></line><line x1="1" y1="14" x2="7" y2="14"></line><line x1="9" y1="8" x2="15" y2="8"></line><line x1="17" y1="16" x2="23" y2="16"></line></svg>
+                    </div>
+                    <h3>Pro Audio Engine</h3>
+                    <p>Powered by ExoPlayer with a 10-band equalizer, volume boost, and dynamic range compression for crystal clear narration.</p>
+                </div>
+                
+                <div class="feature-card glass-card reveal delay-1">
+                    <div class="feature-icon gradient-bg-2">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                    </div>
+                    <h3>True Offline</h3>
+                    <p>No ads, no tracking, no internet required. All your audiobooks stay completely private on your device.</p>
+                </div>
+                
+                <div class="feature-card glass-card reveal delay-2">
+                    <div class="feature-icon gradient-bg-3">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                    </div>
+                    <h3>Smart Sleep Timer</h3>
+                    <p>Fall asleep to your favorite books. Set a custom timer, wait for the end of the chapter, or shake to extend.</p>
+                </div>
+                
+                <div class="feature-card glass-card reveal">
+                    <div class="feature-icon gradient-bg-4">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                    </div>
+                    <h3>Bookmarks & Notes</h3>
+                    <p>Never lose a great quote. Create exact bookmarks and add your own text notes directly to timestamps.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/logo.png" alt="Melodix Logo">
+                <span>Melodix</span>
+            </div>
+            <p>Built with ❤️ by KallCode. Open Source under MIT License.</p>
+            <div class="footer-links">
+                <a href="https://github.com/KallCode/melodix">GitHub Repository</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
